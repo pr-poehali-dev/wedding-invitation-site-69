@@ -8,19 +8,19 @@ const Index = () => {
         
         <section className="text-center mb-16 animate-fade-in">
           <h1 className="font-cormorant text-5xl md:text-7xl font-light text-foreground mb-4 tracking-wider">
-            SERGEY
+            РОБЕРТ
           </h1>
           <div className="text-4xl md:text-5xl font-cormorant font-light text-muted-foreground mb-4">
             &
           </div>
           <h1 className="font-cormorant text-5xl md:text-7xl font-light text-foreground mb-12 tracking-wider">
-            ANASTASIIA
+            КРИСТИНА
           </h1>
           
           <div className="h-px w-32 bg-border mx-auto mb-8"></div>
           
           <div className="font-cormorant text-4xl md:text-5xl font-light text-muted-foreground mb-8 tracking-wide">
-            14 09 2024
+            24 01 2026
           </div>
         </section>
 
@@ -38,7 +38,7 @@ const Index = () => {
             С любовью,
           </p>
           <p className="text-base md:text-lg text-center text-foreground font-medium">
-            Сергей и Анастасия
+            Роберт и Кристина
           </p>
         </Card>
 
@@ -51,10 +51,10 @@ const Index = () => {
               Время
             </h3>
             <p className="text-lg md:text-xl text-muted-foreground mb-2">
-              14 сентября 2024
+              24 января 2026
             </p>
             <p className="text-2xl md:text-3xl font-cormorant font-medium text-primary">
-              15:00
+              18:00
             </p>
           </Card>
 
@@ -66,13 +66,13 @@ const Index = () => {
               Место
             </h3>
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              Ресторан "Золотой Дворик"
+              Кафе "Три Берёзы"
             </p>
             <p className="text-sm md:text-base text-muted-foreground/70 mt-2">
-              ул. Пушкина, д. 25
+              ул. Маяковского, 2Е
             </p>
             <p className="text-sm md:text-base text-muted-foreground/70">
-              Москва, 101000
+              Усть-Балка
             </p>
           </Card>
         </div>
@@ -86,7 +86,7 @@ const Index = () => {
           </div>
           <div className="aspect-video bg-muted rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.2087548966804!2d37.617633776918335!3d55.75582897304628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JrRgNC10LzQu9GMLCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2s!4v1704636000000!5m2!1sru!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.678!2d85.123456!3d54.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVXN0LUJhbGthLCBNYXlha292c2tvZ28gMkU!5e0!3m2!1sru!2s!4v1704636000000!5m2!1sru!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -98,7 +98,7 @@ const Index = () => {
           </div>
           <div className="mt-6 text-center">
             <a
-              href="https://maps.google.com/?q=55.755829,37.617634"
+              href="https://maps.google.com/?q=Усть-Балка+Маяковского+2Е"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-primary hover:text-primary/80 transition-colors font-medium"
