@@ -86,19 +86,18 @@ const Index = () => {
           </div>
           <div className="aspect-video bg-muted rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.678!2d85.123456!3d54.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVXN0LUJhbGthLCBNYXlha292c2tvZ28gMkU!5e0!3m2!1sru!2s!4v1704636000000!5m2!1sru!2s"
+              src="https://yandex.ru/map-widget/v1/?ll=37.424701%2C44.897468&mode=whatshere&whatshere%5Bpoint%5D=37.424701%2C44.897468&whatshere%5Bzoom%5D=17&z=17"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
               title="Карта местоположения"
             ></iframe>
           </div>
           <div className="mt-6 text-center">
             <a
-              href="https://maps.google.com/?q=Усть-Балка+Маяковского+2Е"
+              href="https://yandex.ru/maps?ll=37.424701,44.897468&z=17"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-primary hover:text-primary/80 transition-colors font-medium"
